@@ -214,10 +214,10 @@ Já no segundo grafcet quando recebesse a informação que o sensor da direita d
 ##### Fluxograma Estação 50 com rejeições(Inteiro)
 <br /><br />
 
-![](./Software/Fluxograma/Fluxograma_PLC59_com_rejeiçao_Inteiro.svg) 
+![](./Software/Fluxograma/Fluxograma_PLC59_com_rejeicao_Inteiro.svg) 
 <br /><br />
 
 ##### Fluxograma Estação 50 com rejeições(Partes)
 <br /><br />
 
-![](./Software/Fluxograma/Fluxograma_PLC59_com_rejeiçao_partes.svg)
+![](./Software/Fluxograma/Fluxograma_PLC59_com_rejeicao_partes.svg)
