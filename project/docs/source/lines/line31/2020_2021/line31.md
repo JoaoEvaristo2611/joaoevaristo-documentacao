@@ -33,7 +33,7 @@ A linha 31 faz parte dos grupo 30. Essa linha e dividida por 5 estações que s�
 
 #### Estação 10
 <br /><br />
-
+Nesta estação a programação foi a mais longa porque tivemos que interligar lhe com as das outras estações. Esta estação tem 2 fins de curso um tapete com um servo motor 5 sensores e 1 cilindro. A  primeira parte da programação foi mandar o carro para a posição HOME que e a posição 0 que e onde a estação 20 esta, a estação 10  fica a espera que a 20 acabe o seu trabalho e quando o sensor base detetar os cilindros do carro iram para frente e a garra ira fechar e depois levantar para logo de seguida voltar a posição inicial, Logo a seguir o carro ira para a posição da estação30 que e 287.2048mm o carro ira levantar e depois os cilindros vão avançar e depois a garra vai abrir e vai esperar ate a estação 30 confirmar que acabou de fazer tudo e quando a 10 receber essa informação ira buscar a peça e ira mover se para a estação 40 e vai meter a peça e esperar que esse faça esse trabalho e de seguida vai apanhar  a peça e entregar-lhe a 50 e depois disso vai voltar a posição home e vai fazer tudo de novo.
 <br /><br />
 
 ![Estação10](./Software/Imagens/PLC10.jpg)
@@ -99,7 +99,8 @@ Na estação 20 a primeira tarefa a ser feita foi a identificação de sensores 
 
 #### Estação 30
 <br /><br />
-
+Na estação 30 fizemos as mesmas tarefas da anterior a identificação, a realização do grafcet e a programação do próprio.  Esta estação tem 6 sensores 1 cilindro e uma prensa. O objetivo do grafcet era quando o sensor detetava uma peça tinha que esperar até que a estação 10 coloca-se a peça onde devia, logo a seguir o copo onde foi colocada a peça ira fechar e o cilindro ira para tras. Quando o cilindro estiver atras o sensor que esta nesse cilindro ira ativar e mandar a informação que o cilindro esta na posição desejada logo a seguir a prensa ira fazer a função dela a o cilindro ira para a frente e o copo ira abrir e vai ficar a espera que a estação 10 o vá buscar
+<br /><br />
 ![Estação 30](./Software/Imagens/PLC30.jpg)
 <br /><br />
 
@@ -128,6 +129,9 @@ Na estação 20 a primeira tarefa a ser feita foi a identificação de sensores 
 <br /><br />
 
 #### Estação 40
+<br /><br />
+Na estação 40 os objetivos eram o mesmo. Esta estação tem cerca de 16 sensores 6 cilindros. Na parte da programação já foi complexo porque tivemos que fazer 2 grafcets diferentes. O primeiro grafcet que fizemos foi para o copo ir metendo uma peça de cada vez no prato e esperar que o próprio rode, já no segundo grafcet tivemos que programar a garra para apanhar a peça que estava no prato que tinha rodado e que a leve até a peça que esta a espera na base. No primeiro grafcet o sensor do copo tem que detetar para o cilindro de cima va para a frente para impedir que mais peças descam e que o sensor de baixo volte para tras fazendo com que a peça va para o prato e quando o sensor esquerdo do prato deteta-se a peça ira rodar e quando isto aconter o cilindro de baixo vai avançar e o de cima recuar e repetindo todo o processo novamente.
+Já no segundo grafcet quando recebesse a informação que o sensor da direita do prato e da base deteta-se os cilindro verticais da garra iram  descer e fechar quando chegar ao final depois disso ira voltar a cima, depois os cilindros horizontais iram avançar e logo a seguir os cilindros verticais iram voltar a repetir o processor anterior mas enves de fechar a garra ira abrir metendo assim o miolo no corpo.
 <br /><br />
 
 ![Estação 40](./Software/Imagens/PLC40.jpg)
