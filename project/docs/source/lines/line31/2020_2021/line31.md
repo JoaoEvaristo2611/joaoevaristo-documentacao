@@ -199,13 +199,13 @@ Já no segundo grafcet quando recebesse a informação que o sensor da direita d
 ###### Grafcets Estação 50 sem rejeição(Automatico)
 <br /><br />
 
-![](./Software/Grafecet/PLC59_sem_rejeiçoes.svg)
+![](./Software/Grafecet/PLC59_sem_rejeicoes.svg)
 <br /><br />
 
 ###### Grafcets Estação 50 com rejeições(Automatico)
 <br /><br />
 
-![](./Software/Grafecet/plc59_com_rejeiçoes.svg)  
+![](./Software/Grafecet/plc59_com_rejeicoes.svg)  
 <br /><br />
 
 #### Fluxogramas
