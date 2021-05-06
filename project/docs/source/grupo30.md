@@ -45,6 +45,10 @@
 ## Classificação
 ### Estações
 #### Estação 10
+#### Estação 20
+#### Estação 30
+#### Estação 40
+#### Estação 50
 
 ### PROFINET
 ### Modbus
