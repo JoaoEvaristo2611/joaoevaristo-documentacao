@@ -3,13 +3,6 @@
 ## Lu ban Workshop Portugal
 
 <p>
-  <strong>Nome do Aluno:</strong> Luis Barroso // <strong>Número do Aluno:</strong> 190203015
+  <strong>Nome do Aluno:</strong> João Evaristo // <strong>Número do Aluno:</strong> 190203014
 </p>
-
-Consiste num projecto para criação de documentação de forma simples e rápida usado o Markdown, usando como base o Sphinx.
-
-Website: https://documentacao-lu-ban-portugal.readthedocs.io/en/latest/
-
-Canal de Youtube: https://www.youtube.com/channel/UC1P4ACs0hsr7AWcl-mWKQbQ
-
-Conteudos sobre Grafcet: https://www.mhj-wiki.de/en/grafcet-studio/installation/
+ 
