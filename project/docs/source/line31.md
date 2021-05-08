@@ -36,7 +36,7 @@ A linha 31 faz parte dos grupo 30. Essa linha e dividida por 5 estações que s�
 Nesta estação a programação foi a mais longa porque tivemos que interligar lhe com as das outras estações. Esta estação tem 2 fins de curso um tapete com um servo motor 5 sensores e 1 cilindro. A  primeira parte da programação foi mandar o carro para a posição HOME que e a posição 0 que e onde a estação 20 esta, a estação 10  fica a espera que a 20 acabe o seu trabalho e quando o sensor base detetar os cilindros do carro iram para frente e a garra ira fechar e depois levantar para logo de seguida voltar a posição inicial, Logo a seguir o carro ira para a posição da estação30 que e 287.2048mm o carro ira levantar e depois os cilindros vão avançar e depois a garra vai abrir e vai esperar ate a estação 30 confirmar que acabou de fazer tudo e quando a 10 receber essa informação ira buscar a peça e ira mover se para a estação 40 na posiçao 776..1536 e vai meter a peça e esperar que esse faça esse trabalho e de seguida vai apanhar  a peça e entregar-lhe a 50 na posiçao 1051.882 e depois disso vai voltar a posição home e vai fazer tudo de novo.
 <br /><br />
 
-![Estação10](./Software/Imagens/PLC10.jpg)
+![Estação10](./lines/line31/2020_2021/Software/Imagens/PLC10.jpg)
 <br /><br />
 
 ##### Tags 10
@@ -62,14 +62,16 @@ Nesta estação a programação foi a mais longa porque tivemos que interligar l
 
 ##### Grafcets Estação 10 (Automatico)
 <br /><br />
-![](./Software/Grafecet/PLC19.svg)
+
+![](./lines/line31/2020_2021/Software/Grafecet/PLC19.svg)
+
 <br /><br />
 
 #### Estação 20
 <br /><br />
 Na estação 20 a primeira tarefa a ser feita foi a identificação de sensores e cilindros. Esta estação tem cerca de 8 sensores e 2 cilindros. A tarefa seguinte foi a realização do grafcet. O objetivo do grafcet era quando um dos sensores que esta no copo detetar uma peça o cilindro de cima vai a frente para prender as peças de chegar a base enquanto o cilindro de baixo vai a frente até ao sensor da base detetar o objeto e voltava a estaca inicial enquanto a estação 10 o vai buscar a peça e o sensor deixa-se de dar sinal. Logo a seguir á realização do grafcet   foi a programação do próprio que foi em leader no TIA PORTAL (totally integrated automation portal).
 
-![Estação 20](./Software/Imagens/PLC20.jpg)
+![Estação 20](./lines/line31/2020_2021/Software/Imagens/PLC20.jpg)
 <br /><br />
 
 ##### Tags 20
@@ -94,7 +96,7 @@ Na estação 20 a primeira tarefa a ser feita foi a identificação de sensores 
 ##### Grafcets Estação 20 (Automatico)
 <br /><br />
 
-![](./Software/Grafecet/PLC29.svg)
+![](./lines/line31/2020_2021/Software/Grafecet/PLC29.svg)
 <br /><br />
 
 #### Estação 30
@@ -125,7 +127,7 @@ Na estação 30 fizemos as mesmas tarefas da anterior a identificação, a reali
 ##### Grafcets Estação 30 (Automatico)
 <br /><br />
 
-![](./Software/Grafecet/PLC39.svg)
+![](./lines/line31/2020_2021/Software/Grafecet/PLC39.svg)
 <br /><br />
 
 #### Estação 40
@@ -134,7 +136,7 @@ Na estação 40 os objetivos eram o mesmo. Esta estação tem cerca de 16 sensor
 Já no segundo grafcet quando recebesse a informação que o sensor da direita do prato e da base deteta-se os cilindro verticais da garra iram  descer e fechar quando chegar ao final depois disso ira voltar a cima, depois os cilindros horizontais iram avançar e logo a seguir os cilindros verticais iram voltar a repetir o processor anterior mas enves de fechar a garra ira abrir metendo assim o miolo no corpo.
 <br /><br />
 
-![Estação 40](./Software/Imagens/PLC40.jpg)
+![Estação 40](./lines/line31/2020_2021/Software/Imagens/PLC40.jpg)
 <br /><br />
 
 ##### Tags 40
@@ -167,13 +169,14 @@ Já no segundo grafcet quando recebesse a informação que o sensor da direita d
 ##### Grafcets Estação 40 (Automatico)
 <br /><br />
 
-![](./Software/Grafecet/PLC49.svg)
+![](./lines/line31/2020_2021/Software/Grafecet/PLC49.svg)
+
 <br /><br />
 
 #### Estação 50
 <br /><br />
 
-![Estação50](./Software/Imagens/PLC50.jpg)
+![Estação50](./lines/line31/2020_2021/Software/Imagens/PLC50.jpg)
 <br /><br />
 
 ##### Tags 50
@@ -199,13 +202,13 @@ Já no segundo grafcet quando recebesse a informação que o sensor da direita d
 ###### Grafcets Estação 50 sem rejeição(Automatico)
 <br /><br />
 
-![](./Software/Grafecet/PLC59_sem_rejeicoes.svg)
+![](./lines/line31/2020_2021/Software/Grafecet/PLC59_sem_rejeicoes.svg)
 <br /><br />
 
 ###### Grafcets Estação 50 com rejeições(Automatico)
 <br /><br />
 
-![](./Software/Grafecet/plc59_com_rejeicoes.svg)  
+![](./lines/line31/2020_2021/Software/Grafecet/plc59_com_rejeicoes.svg)  
 <br /><br />
 
 #### Fluxogramas
@@ -214,10 +217,10 @@ Já no segundo grafcet quando recebesse a informação que o sensor da direita d
 ##### Fluxograma Estação 50 com rejeições(Inteiro)
 <br /><br />
 
-![](./Software/Fluxograma/Fluxograma_PLC59_com_rejeicao_Inteiro.svg) 
+![](./lines/line31/2020_2021/Software/Fluxograma/Fluxograma_PLC59_com_rejeicao_Inteiro.svg) 
 <br /><br />
 
 ##### Fluxograma Estação 50 com rejeições(Partes)
 <br /><br />
 
-![](./Software/Fluxograma/Fluxograma_PLC59_com_rejeicao_partes.svg)
+![](./lines/line31/2020_2021/Software/Fluxograma/Fluxograma_PLC59_com_rejeicao_partes.svg)
