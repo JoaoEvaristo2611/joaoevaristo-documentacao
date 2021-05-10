@@ -103,6 +103,7 @@ Na estação 20 a primeira tarefa a ser feita foi a identificação de sensores 
 <br /><br />
 Na estação 30 fizemos as mesmas tarefas da anterior a identificação, a realização do grafcet e a programação do próprio.  Esta estação tem 6 sensores 1 cilindro e uma prensa. O objetivo do grafcet era quando o sensor detetava uma peça tinha que esperar até que a estação 10 coloca-se a peça onde devia, logo a seguir o copo onde foi colocada a peça ira fechar e o cilindro ira para tras. Quando o cilindro estiver atras o sensor que esta nesse cilindro ira ativar e mandar a informação que o cilindro esta na posição desejada logo a seguir a prensa ira fazer a função dela a o cilindro ira para a frente e o copo ira abrir e vai ficar a espera que a estação 10 o vá buscar
 <br /><br />
+
 ![Estação 30](./Software/Imagens/PLC30.jpg)
 <br /><br />
 
@@ -176,6 +177,9 @@ Já no segundo grafcet quando recebesse a informação que o sensor da direita d
 #### Estação 50
 <br /><br />
 
+Nesta estação tivemos que fazer o que fizemos nos outros, mas não só . Tambem tivemos que fazer programação estruturada que é uma programação textual de alto nível, possibilita a solução de problemas mais complexos. A programação foi feita para quando o sensor detetar e o plc  50 receber a informação que a estação 10 o tapete vai começar a andar para a frente enquanto ele tiver a andar vai passar por 2 sensores 1 que é metálico e outro que deteta peças brancas.  Se os dois sensores detetarem significa que e uma peça de metal por isso o primeiro cilindro ira avançar quando a peça esta la. Se so um detetar quer dizer que e uma peça branca por isso o segundo cilindro ira para a frente e se nenhum detetar significa que e preta por isso so o terceiro cilindro ira para a frente. Para detetar as peças com erros teve que se fazer programação estruturada que é uma programação textual de alto nível, possibilita a solução de problemas mais complexos. Para fazer isto tivemos que tirar medidas para sabermos quantos centímetros a peça demora ate chegar o corpo aos 2 sensores e depois tivemos que medir quantos centímetros a peça anda ate o miolo detetar nos dois sensores 
+<br /><br />
+
 ![Estação50](./lines/line31/2020_2021/Software/Imagens/PLC50.jpg)
 <br /><br />
 
@@ -224,3 +228,10 @@ Já no segundo grafcet quando recebesse a informação que o sensor da direita d
 <br /><br />
 
 ![](./lines/line31/2020_2021/Software/Fluxograma/Fluxograma_PLC59_com_rejeicao_partes.svg)
+<br /><br />
+
+##### Programação de texto Estruturado 
+![](./lines/line31/2020_2021/Software/Texto_estruturado/1.png)
+![](./lines/line31/2020_2021/Software/Texto_estruturado/2.png)
+![](./lines/line31/2020_2021/Software/Texto_estruturado/3.png)
+![](./lines/line31/2020_2021/Software/Texto_estruturado/4.png)
