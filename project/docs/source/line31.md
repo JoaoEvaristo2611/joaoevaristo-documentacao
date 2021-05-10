@@ -232,6 +232,9 @@ Nesta estação tivemos que fazer o que fizemos nos outros, mas não só . Tambe
 
 ##### Programação de texto Estruturado 
 ![](./lines/line31/2020_2021/Software/Texto_estruturado/1.png)
-![](./lines/line31/2020_2021/Software/Texto_estruturado/2.png)
+
+![](./lines/line31/2020_2021/Software/Texto_estruturado/2.png) 
+
 ![](./lines/line31/2020_2021/Software/Texto_estruturado/3.png)
+
 ![](./lines/line31/2020_2021/Software/Texto_estruturado/4.png)
