@@ -101,10 +101,11 @@ Na estação 20 a primeira tarefa a ser feita foi a identificação de sensores 
 
 #### Estação 30
 <br /><br />
-Na estação 30 fizemos as mesmas tarefas da anterior a identificação, a realização do grafcet e a programação do próprio.  Esta estação tem 6 sensores 1 cilindro e uma prensa. O objetivo do grafcet era quando o sensor detetava uma peça tinha que esperar até que a estação 10 coloca-se a peça onde devia, logo a seguir o copo onde foi colocada a peça ira fechar e o cilindro ira para tras. Quando o cilindro estiver atras o sensor que esta nesse cilindro ira ativar e mandar a informação que o cilindro esta na posição desejada logo a seguir a prensa ira fazer a função dela a o cilindro ira para a frente e o copo ira abrir e vai ficar a espera que a estação 10 o vá buscar
+Na estação 30 fizemos as mesmas tarefas da anterior a identificação, a realização do grafcet e a programação do próprio.  Esta estação tem 6 sensores 1 cilindro e uma prensa. O objetivo do grafcet era quando o sensor detetava uma peça tinha que esperar até que a estação 10 coloca-se a peça onde devia, logo a seguir o copo onde foi colocada a peça ira fechar e o cilindro ira para trás. Quando o cilindro estiver atrás o sensor que esta nesse cilindro ira ativar e mandar a informação que o cilindro esta na posição desejada logo a seguir a prensa ira fazer a função dela a o cilindro ira para a frente e o copo ira abrir e vai ficar a espera que a estação 10 o vá buscar
 <br /><br />
 
-![Estação 30](./Software/Imagens/PLC30.jpg)
+![Estação 30](./lines/line31/2020_2021/Software/Imagens/PLC30.jpg)
+
 <br /><br />
 
 ##### Tags 30
@@ -133,8 +134,8 @@ Na estação 30 fizemos as mesmas tarefas da anterior a identificação, a reali
 
 #### Estação 40
 <br /><br />
-Na estação 40 os objetivos eram o mesmo. Esta estação tem cerca de 16 sensores 6 cilindros. Na parte da programação já foi complexo porque tivemos que fazer 2 grafcets diferentes. O primeiro grafcet que fizemos foi para o copo ir metendo uma peça de cada vez no prato e esperar que o próprio rode, já no segundo grafcet tivemos que programar a garra para apanhar a peça que estava no prato que tinha rodado e que a leve até a peça que esta a espera na base. No primeiro grafcet o sensor do copo tem que detetar para o cilindro de cima va para a frente para impedir que mais peças descam e que o sensor de baixo volte para tras fazendo com que a peça va para o prato e quando o sensor esquerdo do prato deteta-se a peça ira rodar e quando isto aconter o cilindro de baixo vai avançar e o de cima recuar e repetindo todo o processo novamente.
-Já no segundo grafcet quando recebesse a informação que o sensor da direita do prato e da base deteta-se os cilindro verticais da garra iram  descer e fechar quando chegar ao final depois disso ira voltar a cima, depois os cilindros horizontais iram avançar e logo a seguir os cilindros verticais iram voltar a repetir o processor anterior mas enves de fechar a garra ira abrir metendo assim o miolo no corpo.
+Na estação 40 os objetivos eram o mesmo. Esta estação tem cerca de 16 sensores 6 cilindros. Na parte da programação já foi complexo porque tivemos que fazer 2 grafcets diferentes. O primeiro grafcet que fizemos foi para o copo ir metendo uma peça de cada vez no prato e esperar que o próprio rode, já no segundo grafcet tivemos que programar a garra para apanhar a peça que estava no prato que tinha rodado e que a leve até a peça que esta a espera na base. No primeiro grafcet o sensor do copo tem que detetar para o cilindro de cima va para a frente para impedir que mais peças desçam e que o sensor de baixo volte para trás fazendo com que a peça va para o prato e quando o sensor esquerdo do prato deteta-se a peça ira rodar e quando isto aconteçer o cilindro de baixo vai avançar e o de cima recuar e repetindo todo o processo novamente.
+Já no segundo grafcet quando recebesse a informação que o sensor da direita do prato e da base deteta-se os cilindro verticais da garra iram  descer e fechar quando chegar ao final depois disso ira voltar a cima, depois os cilindros horizontais iram avançar e logo a seguir os cilindros verticais iram voltar a repetir o processor anterior mas invés de fechar a garra ira abrir metendo assim o miolo no corpo.
 <br /><br />
 
 ![Estação 40](./lines/line31/2020_2021/Software/Imagens/PLC40.jpg)
@@ -150,15 +151,15 @@ Já no segundo grafcet quando recebesse a informação que o sensor da direita d
 | 314010B31 | %I0.2  | Sensor Prato lado Esq.      | 314010R10  | %Q0.2  | Prato                 |
 | 314010B30 | %I0.3  | Sensor Prato lado Dir.      | 314030G10  | %Q0.3  | Garra                 |
 | 314010B10 | %I0.4  | Sensor Tubo                 | 314030Y20  | %Q0.4  | Cilindro Vertical     |
-| 314020B21 | %I0.5  | Sensor á Frente             | 314030Y10  | %Q0.5  | Cilindro Horinzontal  |
+| 314020B21 | %I0.5  | Sensor á Frente             | 314030Y10  | %Q0.5  | Cilindro Horizontal  |
 | 314020B20 | %I0.6  |Sensor a trás                | 314040HL10 | %Q0.6  | Semáforo Encarnado    |
 | 314020B30 | %I0.7  | Sensor á Frente             | 314040HL20 | %Q0.7  | Semáforo Laranja      |
-| 314020B31 | %I1.0  | Sendor a trás               | 314040HL30 | %Q1.0  | Semáforo Verde        |
+| 314020B31 | %I1.0  | Sensor a trás               | 314040HL30 | %Q1.0  | Semáforo Verde        |
 | 314010B20 | %I1.1  | Sensor posição inicial      | 4920HL1    | %Q8.5  | Luz Laranja           |
 | 314030B21 | %I1.2  | Sensor Mov.(Prato)          | 4920HL2    | %Q6.6  | Luz Verde             |
 | 314030B10 | %I1.3  | Sensor Garra                | 4920HL3    | %Q8.7  | Luz Encarnada         |
 | 314930B41 | %I1.4  | Sensor de Garra em baixo    |            |        |                       |
-| 314030B40 | %I1.5  | Sensor de garra em ciima    |            |        |                       |
+| 314030B40 | %I1.5  | Sensor de garra em cima    |            |        |                       |
 | 314030B51 | %I8.0  | Sensor de Trás              |            |        |                       |
 | 314030B50 | %I8.1  | Sensor de Frente            |            |        |                       |
 | 3149SB2   | %I8.2  | Stop                        |            |        |                       |
@@ -177,7 +178,7 @@ Já no segundo grafcet quando recebesse a informação que o sensor da direita d
 #### Estação 50
 <br /><br />
 
-Nesta estação tivemos que fazer o que fizemos nos outros, mas não só . Tambem tivemos que fazer programação estruturada que é uma programação textual de alto nível, possibilita a solução de problemas mais complexos. A programação foi feita para quando o sensor detetar e o plc  50 receber a informação que a estação 10 o tapete vai começar a andar para a frente enquanto ele tiver a andar vai passar por 2 sensores 1 que é metálico e outro que deteta peças brancas.  Se os dois sensores detetarem significa que e uma peça de metal por isso o primeiro cilindro ira avançar quando a peça esta la. Se so um detetar quer dizer que e uma peça branca por isso o segundo cilindro ira para a frente e se nenhum detetar significa que e preta por isso so o terceiro cilindro ira para a frente. Para detetar as peças com erros teve que se fazer programação estruturada que é uma programação textual de alto nível, possibilita a solução de problemas mais complexos. Para fazer isto tivemos que tirar medidas para sabermos quantos centímetros a peça demora ate chegar o corpo aos 2 sensores e depois tivemos que medir quantos centímetros a peça anda ate o miolo detetar nos dois sensores 
+Nesta estação tivemos que fazer o que fizemos nos outros, mas não só . Também tivemos que fazer programação estruturada que é uma programação textual de alto nível, possibilita a solução de problemas mais complexos. A programação foi feita para quando o sensor detetar e o plc  50 receber a informação que a estação 10 o tapete vai começar a andar para a frente enquanto ele tiver a andar vai passar por 2 sensores 1 que é metálico e outro que deteta peças brancas.  Se os dois sensores detetarem significa que e uma peça de metal por isso o primeiro cilindro ira avançar quando a peça esta la. Se so um detetar quer dizer que e uma peça branca por isso o segundo cilindro ira para a frente e se nenhum detetar significa que e preta por isso so o terceiro cilindro ira para a frente. Para detetar as peças com erros teve que se fazer programação estruturada que é uma programação textual de alto nível, possibilita a solução de problemas mais complexos. Para fazer isto tivemos que tirar medidas para sabermos quantos centímetros a peça demora ate chegar o corpo aos 2 sensores e depois tivemos que medir quantos centímetros a peça anda ate o miolo detetar nos dois sensores 
 <br /><br />
 
 ![Estação50](./lines/line31/2020_2021/Software/Imagens/PLC50.jpg)
