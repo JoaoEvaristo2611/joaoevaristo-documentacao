@@ -1,5 +1,5 @@
 # Line 31
-**Autor**: JoãoEvaristo
+**Autor**: João Evaristo
 
 ### Indice
 - [Introdução](#introducao)
