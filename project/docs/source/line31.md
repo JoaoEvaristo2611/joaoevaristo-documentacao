@@ -1,5 +1,5 @@
 # Line 31
-**Autor**: João Evaristo
+**Autor**: Luis Miguel Barroso
 
 ### Indice
 - [Introdução](#introducao)
