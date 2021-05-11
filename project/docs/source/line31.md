@@ -1,5 +1,5 @@
 # Line 31
-**Autor**: João Evaristo e Luis
+**Autor**: João Evaristo
 
 ### Indice
 - [Introdução](#introducao)
