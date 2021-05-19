@@ -137,7 +137,7 @@ Esta estação começa a funcionar assim que o sensor baixo do copo ativar, assi
 #### Estação 30
 <br /><br />
 
-Esta estação  tem cerca de 6 sensores e 3 cilindros. Esta estação so ira começar a trabalhar quando a 10 for la meter a peça quando este a meter a copo ira fechar e a ira para traz qundo este tiver a tras a prensa ira descer e ira voltar par cima. Logo a seguir o cpo ira voltar a frente e a estação 20 ira ficar a esperar que a 10 vai buscar a peça e volte a por outra. 
+Esta estação  tem cerca de 6 sensores e 3 cilindros. Esta estação so ira começar a trabalhar quando a 10 for la meter a peça quando este a meter a copo ira fechar e a ira para trás quando este tiver la a prensa ira descer e ira voltar par cima. Logo a seguir o cpo ira voltar a frente e a estação 20 ira ficar a esperar que a 10 vai buscar a peça e volte a por outra. 
 
 <br /><br />
 
