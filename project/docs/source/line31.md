@@ -35,7 +35,9 @@ A linha 31 faz parte dos grupo 30. Essa linha e dividida por 5 estações que s�
 
 #### Estação 10
 <br /><br />
-Nesta estação a programação foi a mais longa porque tivemos que interligar lhe com as das outras estações. Esta estação tem 2 fins de curso um tapete com um servo motor 5 sensores e 1 cilindro. A  primeira parte da programação foi mandar o carro para a posição HOME que e a posição 0 que e onde a estação 20 esta, a estação 10  fica a espera que a 20 acabe o seu trabalho e quando o sensor base detetar os cilindros do carro iram para frente e a garra ira fechar e depois levantar para logo de seguida voltar a posição inicial, Logo a seguir o carro ira para a posição da estação30 que e 287.2048mm o carro ira levantar e depois os cilindros vão avançar e depois a garra vai abrir e vai esperar ate a estação 30 confirmar que acabou de fazer tudo e quando a 10 receber essa informação ira buscar a peça e ira mover se para a estação 40 na posiçao 776..1536 e vai meter a peça e esperar que esse faça esse trabalho e de seguida vai apanhar  a peça e entregar-lhe a 50 na posiçao 1051.882 e depois disso vai voltar a posição home e vai fazer tudo de novo.
+Esta estação esta equipa com 2 fins de curso, um servo motor, 5 sensores e 3 cilindros.
+Esta estação começa a funcionar assim que receber informação que a 20 ja fez o seu trabalho. Quando ele receber essa informação o carrinho da estação 10 ira estar na posição 0.000mm que e onde a estação 20 esta, depois do carrinho estiver nessa posição a garra vai a frente e vai fechar, logo a seguir de fechar o carrinho vai levantar e vai recuar. Quando recuar o carrinho vai para a posição da estação 30 que é em 287.2048mm, ao chegar o carro vai avançar e vai deixar a peça e enquanto as estação 30 estiver a trabalhar a 10 fica a espera e assim que acabar o carro vai buscar lhe e depois vai para a estação 40 que fica em 776.1536 mm e ira fazer o mesmo que tem feito nas outras. Logo a seguir vai entregar na 50 que e em 1051.882mm e logo a seguir vai voltar para a posição Home.    
+
 <br /><br />
 
 ![Estação10](./lines/line31/2020_2021/Software/Imagens/PLC10.jpg)
@@ -89,7 +91,8 @@ Nesta estação a programação foi a mais longa porque tivemos que interligar l
 
 #### Estação 20
 <br /><br />
-Na estação 20 a primeira tarefa a ser feita foi a identificação de sensores e cilindros. Esta estação tem cerca de 8 sensores e 2 cilindros. A tarefa seguinte foi a realização do grafcet. O objetivo do grafcet era quando um dos sensores que esta no copo detetar uma peça o cilindro de cima vai a frente para prender as peças de chegar a base enquanto o cilindro de baixo vai a frente até ao sensor da base detetar o objeto e voltava a estaca inicial enquanto a estação 10 o vai buscar a peça e o sensor deixa-se de dar sinal. Logo a seguir á realização do grafcet   foi a programação do próprio que foi em leader no TIA PORTAL (totally integrated automation portal).
+Esta estação e composta por 8 sensores e 2 cilindros.
+Esta estação começa a funcionar assim que o sensor baixo do copo ativar, assim que este ativar o cilindro de cima ira para a frente e logo a seguir o de baixo também vai a frente e logo a seguir vai recuar e o de cima também ira fazer o mesmo. Esta estação so voltara a funcionar quando o sensor da base deixar de detetar.  
 
 ![Estação 20](./lines/line31/2020_2021/Software/Imagens/PLC20.jpg)
 <br /><br />
@@ -133,7 +136,9 @@ Na estação 20 a primeira tarefa a ser feita foi a identificação de sensores 
 
 #### Estação 30
 <br /><br />
-Na estação 30 fizemos as mesmas tarefas da anterior a identificação, a realização do grafcet e a programação do próprio.  Esta estação tem 6 sensores 1 cilindro e uma prensa. O objetivo do grafcet era quando o sensor detetava uma peça tinha que esperar até que a estação 10 coloca-se a peça onde devia, logo a seguir o copo onde foi colocada a peça ira fechar e o cilindro ira para trás. Quando o cilindro estiver atrás o sensor que esta nesse cilindro ira ativar e mandar a informação que o cilindro esta na posição desejada logo a seguir a prensa ira fazer a função dela a o cilindro ira para a frente e o copo ira abrir e vai ficar a espera que a estação 10 o vá buscar
+
+Esta estação  tem cerca de 6 sensores e 3 cilindros. Esta estação so ira começar a trabalhar quando a 10 for la meter a peça quando este a meter a copo ira fechar e a ira para traz qundo este tiver a tras a prensa ira descer e ira voltar par cima. Logo a seguir o cpo ira voltar a frente e a estação 20 ira ficar a esperar que a 10 vai buscar a peça e volte a por outra. 
+
 <br /><br />
 
 ![Estação 30](./lines/line31/2020_2021/Software/Imagens/PLC30.jpg)
