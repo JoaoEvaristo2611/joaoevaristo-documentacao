@@ -29,6 +29,7 @@
 
 ### Introdução
 A linha 31 faz parte dos grupo 30. Essa linha e dividida por 5 estações que são **"Transporte"**, **"colocação de corpo"**,**"Prensa"**, **"Colocação de miolo"** e **"Tapete de verificação de peças"**. 
+Este trabalho foi programado em LEADER e texto estreturado 
 
 ### Trabalho Realizado:
 <br /><br />
@@ -183,8 +184,9 @@ Esta estação  tem cerca de 6 sensores e 3 cilindros. Esta estação so ira com
 
 #### Estação 40
 <br /><br />
-Na estação 40 os objetivos eram o mesmo. Esta estação tem cerca de 16 sensores 6 cilindros. Na parte da programação já foi complexo porque tivemos que fazer 2 grafcets diferentes. O primeiro grafcet que fizemos foi para o copo ir metendo uma peça de cada vez no prato e esperar que o próprio rode, já no segundo grafcet tivemos que programar a garra para apanhar a peça que estava no prato que tinha rodado e que a leve até a peça que esta a espera na base. No primeiro grafcet o sensor do copo tem que detetar para o cilindro de cima va para a frente para impedir que mais peças desçam e que o sensor de baixo volte para trás fazendo com que a peça va para o prato e quando o sensor esquerdo do prato deteta-se a peça ira rodar e quando isto aconteçer o cilindro de baixo vai avançar e o de cima recuar e repetindo todo o processo novamente.
-Já no segundo grafcet quando recebesse a informação que o sensor da direita do prato e da base deteta-se os cilindro verticais da garra iram  descer e fechar quando chegar ao final depois disso ira voltar a cima, depois os cilindros horizontais iram avançar e logo a seguir os cilindros verticais iram voltar a repetir o processor anterior mas invés de fechar a garra ira abrir metendo assim o miolo no corpo.
+Esta estação e composta por 16 sensores e 6 cilindros.Esta estação esta estação esta dividida em 2 processos a primeira que é onde esta o armazenamento dos miolo ira começar o seu processo quando o sensor baixo do copo detetar um miolo. Quando isto acontecer o cilindro de cima ira avançar e o de baixo ira recuar permitindo assim o processamento do miolo.Quando fizer o processamento ira parar a um prato que ira rodar e esperar que a garra o va buscar e assim poderá fazer tudo de novo. Ja o segundo processo so ira começar a processar quando o prato rodar e o sensor ativar e quando a estação 10 for meter la o corpo.
+Quando isto tiver tudo feito a garra ira descer pegar no miolo e voltar acima, e a seguir vai a frente descer e meter o miolo no copo assim fazendo o produto final.
+Q
 <br /><br />
 
 ![Estação 40](./lines/line31/2020_2021/Software/Imagens/PLC40.jpg)
@@ -243,8 +245,9 @@ Já no segundo grafcet quando recebesse a informação que o sensor da direita d
 
 #### Estação 50
 <br /><br />
+Esta estação tem 9 sensores e 3 cilindros. Quando o carrinho 10 deixar a peça no tapete um dos sensores ira detetar essa peça o que ira fazer com que o tapete começe a andar. Quando este começar a andar a peça ira passar por 2 sensores um que deteta peças de metal e outro que deteta peças brancas e se o sensor de metal e o branco detetar quer dizer que a peça é  toda de metal o que ira fazer com que o primeiro cilindro ira para a frente assim metendo a peça no armazenamento correto. Quando so o sensor branco detetar quer dizer que a peça e branca por isso  será o segundo cilindro a ir a frente e quando nenhum desses nao detetar quer dizer que a peça e preta e assim  ira ser o terceiro cilindro a avançar. Mas quando as peças tiverem erradas nenhum dos cilindros ira a frente o que vai fazer com que a peça ira cair numa caixa de rejeições.
+Para saber quando os sensores deviam atuar e os cilindros tivemos que fazer varias medições e para fazer essas tivemos que na programação fazer quando um dos sensores detetar ira aparecer no computador os valores. Ja para sabermos a distancia dos cilindros ja tivemos que fazer a mão .
 
-Nesta estação tivemos que fazer o que fizemos nos outros, mas não só . Também tivemos que fazer programação estruturada que é uma programação textual de alto nível, possibilita a solução de problemas mais complexos. A programação foi feita para quando o sensor detetar e o plc  50 receber a informação que a estação 10 o tapete vai começar a andar para a frente enquanto ele tiver a andar vai passar por 2 sensores 1 que é metálico e outro que deteta peças brancas.  Se os dois sensores detetarem significa que e uma peça de metal por isso o primeiro cilindro ira avançar quando a peça esta la. Se so um detetar quer dizer que e uma peça branca por isso o segundo cilindro ira para a frente e se nenhum detetar significa que e preta por isso so o terceiro cilindro ira para a frente. Para detetar as peças com erros teve que se fazer programação estruturada que é uma programação textual de alto nível, possibilita a solução de problemas mais complexos. Para fazer isto tivemos que tirar medidas para sabermos quantos centímetros a peça demora ate chegar o corpo aos 2 sensores e depois tivemos que medir quantos centímetros a peça anda ate o miolo detetar nos dois sensores 
 <br /><br />
 
 ![Estação50](./lines/line31/2020_2021/Software/Imagens/PLC50.jpg)
