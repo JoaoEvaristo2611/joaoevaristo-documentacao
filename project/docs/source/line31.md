@@ -41,7 +41,7 @@ Esta estação começa a funcionar assim que receber informação que a 20 ja fe
 Como fazer o carinho andar 
 <br /><br />
 
-## Como fazer o carinho andar 
+##### Como fazer o carinho andar 
 Para este processo 5 blocos de funções que são: MC_Home, MC_Reset, MC_Halt, Mc_Home e MC_MoveAbsolute
 
 
@@ -52,7 +52,7 @@ MC_Power – é uma função que deve ser chamada e ligada antes de qualquer ins
 ##### Tags 10
 <br />
 
-## ENTRADAS
+###### ENTRADAS
 <br /><br />
 
 | Tags                      | Inputs        | comments                      | 
@@ -73,7 +73,7 @@ MC_Power – é uma função que deve ser chamada e ligada antes de qualquer ins
 | 311920SA                  | %I8.7         | Seletor                       |
 <br /><br />
 
-## Saidas
+###### Saidas
 
 | Tags             | Outputs  | comments                      |
 | -----------------|----------| ------------------------------|
@@ -108,7 +108,7 @@ Esta estação começa a funcionar assim que o sensor baixo do copo ativar, assi
 ##### Tags 20
 <br /><br />
 
-## ENTRADAS
+###### ENTRADAS
 <br /><br />
 
 | Tags      | Inputs | comments                    | 
@@ -127,7 +127,7 @@ Esta estação começa a funcionar assim que o sensor baixo do copo ativar, assi
 | 3120SA    | %I1.5  |   Seletor                   |
 <br /><br />
 
-## Saidas
+###### Saidas
 
 | Tags             | Outputs  | comments                      |
 | -----------------|----------| ------------------------------|
@@ -158,7 +158,7 @@ Esta estação  tem cerca de 6 sensores e 3 cilindros. Esta estação so ira com
 ##### Tags 30
 <br /><br />
 
-## ENTRADAS
+###### ENTRADAS
 <br /><br />
 
 | Tags      | Input  | comments                    | 
@@ -175,7 +175,7 @@ Esta estação  tem cerca de 6 sensores e 3 cilindros. Esta estação so ira com
 | 3139SA    | %I1.5  | Switch ON/OFF               |
 <br /><br />
 
-## Saidas
+###### Saidas
 
 | Tags      | Outputs  | comments           |
 | -----     |----------| -------------------|
@@ -206,7 +206,7 @@ Q
 ##### Tags 40
 <br /><br />
 
-## Entradas
+###### Entradas
 
 <br /><br />
 
@@ -234,7 +234,7 @@ Q
 | 3149SA    | %I8.5  | Switch ON/OFF               |
 <br /><br />
 
-## Saidas
+###### Saidas
 
 | Tags             | Outputs  | comments                     |
 | -----------------|----------| -----------------------------|
@@ -271,7 +271,7 @@ Para saber quando os sensores deviam atuar e os cilindros tivemos que fazer vari
 ##### Tags 50
 <br /><br />
 
-## Entradas
+###### Entradas
 <br /><br />
 
 | Tags      | Input  | comments         |
@@ -291,7 +291,7 @@ Para saber quando os sensores deviam atuar e os cilindros tivemos que fazer vari
 |3159SA	    |I1.5    |Switch ON/OFF     |				
 <br /><br />
 
-## Saidas
+###### Saidas
 
 | Tags             | Outputs  | comments                      |
 | -----------------|----------| ------------------------------|
