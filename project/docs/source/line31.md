@@ -38,9 +38,14 @@ Este trabalho foi programado em LEADER e texto estreturado
 <br /><br />
 Esta estação esta equipa com 2 fins de curso, um servo motor, 5 sensores e 3 cilindros.
 Esta estação começa a funcionar assim que receber informação que a 20 ja fez o seu trabalho. Quando ele receber essa informação o carrinho da estação 10 ira estar na posição 0.000mm que e onde a estação 20 esta, depois do carrinho estiver nessa posição a garra vai a frente e vai fechar, logo a seguir de fechar o carrinho vai levantar e vai recuar. Quando recuar o carrinho vai para a posição da estação 30 que é em 287.2048mm, ao chegar o carro vai avançar e vai deixar a peça e enquanto as estação 30 estiver a trabalhar a 10 fica a espera e assim que acabar o carro vai buscar lhe e depois vai para a estação 40 que fica em 776.1536 mm e ira fazer o mesmo que tem feito nas outras. Logo a seguir vai entregar na 50 que e em 1051.882mm e logo a seguir vai voltar para a posição Home.    
-
+Como fazer o carinho andar 
 <br /><br />
 
+## Como fazer o carinho andar 
+Para este processo 5 blocos de funções que são: MC_Home, MC_Reset, MC_Halt, Mc_Home e MC_MoveAbsolute
+
+
+MC_Power – é uma função que deve ser chamada e ligada antes de qualquer instrução de movimento, sem ela não será possível comando o servo.
 ![Estação10](./lines/line31/2020_2021/Software/Imagens/PLC10.jpg)
 <br /><br />
 
@@ -48,6 +53,7 @@ Esta estação começa a funcionar assim que receber informação que a 20 ja fe
 <br />
 
 ## ENTRADAS
+
 | Tags                      | Inputs        | comments                      | 
 | --------------------------|---------------| ------------------------------|
 | Axis_1_Homing_switch      | %I0.0         | Fim de curso tras             |
