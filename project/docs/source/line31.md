@@ -53,6 +53,7 @@ MC_Power – é uma função que deve ser chamada e ligada antes de qualquer ins
 <br />
 
 ## ENTRADAS
+<br /><br />
 
 | Tags                      | Inputs        | comments                      | 
 | --------------------------|---------------| ------------------------------|
@@ -108,6 +109,8 @@ Esta estação começa a funcionar assim que o sensor baixo do copo ativar, assi
 <br /><br />
 
 ## ENTRADAS
+<br /><br />
+
 | Tags      | Inputs | comments                    | 
 | -----     |--------| ----------------------------|
 | 3130B21   | %I0.0  | Sensor de frente            |
@@ -156,6 +159,8 @@ Esta estação  tem cerca de 6 sensores e 3 cilindros. Esta estação so ira com
 <br /><br />
 
 ## ENTRADAS
+<br /><br />
+
 | Tags      | Input  | comments                    | 
 | -----     |--------| ----------------------------|
 | 3130B21   | %I0.0  | Sensor Garra                |
@@ -199,6 +204,10 @@ Q
 <br /><br />
 
 ##### Tags 40
+<br /><br />
+
+## Entradas
+
 <br /><br />
 
 | Tags      | Input  | comments                    |
@@ -262,16 +271,19 @@ Para saber quando os sensores deviam atuar e os cilindros tivemos que fazer vari
 ##### Tags 50
 <br /><br />
 
-| Tags      | Input  | comments         | Tags    | Outputs| Comments          |
-| -----     |--------| -----------------|---------|--------|-------------------|
-|           |I0.0	 |Encoder(Fase A)   |TP	      |Q0.0    |Motor (Rotação Av) |
-|           |I0.1	 |Encoder(Fase B)   |TP(1)    |	Q0.1   |Motor (Rotação Rec)|
-|           |I0.2    |Encoder(Fase C)   |3150Y20  |	Q0.4   |Cilindro 1         |
-|3150B11	|I0.3	 |Sensor de Material|3150Y30  |	Q0.5   |Cilindro 2         |
-|3150B12	|I0.4    |Sensor de Metálico|3150Y40  |	Q0.6   |Cilindro 3         |
-|3150B13	|I0.5    |Sensor de Ótico   |592011   |	Q0.7   |Luz Amarela        |
-|3150B21	|I0.7    |Sensor(Cilindro 1)|592012   |	Q1.0   |Luz Verde          |
-|3150B31	|I1.0    |Sensor(Cilindro 2)|592013   |	Q1.1   |Luz Vermelha       |
+## Entradas
+<br /><br />
+
+| Tags      | Input  | comments         |
+| -----     |--------| -----------------|
+|           |I0.0	 |Encoder(Fase A)   |
+|           |I0.1	 |Encoder(Fase B)   |
+|           |I0.2    |Encoder(Fase C)   |
+|3150B11	|I0.3	 |Sensor de Material|
+|3150B12	|I0.4    |Sensor de Metálico|
+|3150B13	|I0.5    |Sensor de Ótico   |
+|3150B21	|I0.7    |Sensor(Cilindro 1)|
+|3150B31	|I1.0    |Sensor(Cilindro 2)|
 |3150B41	|I1.1    |Sensor(Cilindro 3)|				
 |3159SB2	|I1.2    |Stop              |				
 |3159SB1	|I1.3    |Start             |				
