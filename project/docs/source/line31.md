@@ -52,7 +52,7 @@ MC_Power – é uma função que deve ser chamada e ligada antes de qualquer ins
 ##### Tags 10
 <br />
 
-###### ENTRADAS
+###### Entradas
 <br /><br />
 
 | Tags                      | Inputs        | comments                      | 
@@ -108,7 +108,7 @@ Esta estação começa a funcionar assim que o sensor baixo do copo ativar, assi
 ##### Tags 20
 <br /><br />
 
-###### ENTRADAS
+###### Entradas
 <br /><br />
 
 | Tags      | Inputs | comments                    | 
@@ -158,7 +158,7 @@ Esta estação  tem cerca de 6 sensores e 3 cilindros. Esta estação so ira com
 ##### Tags 30
 <br /><br />
 
-###### ENTRADAS
+###### Entradas
 <br /><br />
 
 | Tags      | Input  | comments                    | 
@@ -317,7 +317,7 @@ Para saber quando os sensores deviam atuar e os cilindros tivemos que fazer vari
 <br /><br />
 
 #### Fluxogramas
-<br /><br />
+<br /><br /> 
 
 ##### Fluxograma Estação 50 com rejeições(Inteiro)
 <br /><br />
